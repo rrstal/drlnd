@@ -35,14 +35,14 @@ agent must get an average score of +13 over 100 consecutive episodes.
 - `models.py`: implementation of the Q-Network architectures used as the function approximator by the agent
 - `dqn.pth`: saved model weights for the original DQN model
 - `ddqn.pth`: saved model weights for the Double DQN model
-- `ddqn_priority.pth`: saved model weights for the Dueling Double DQN Priority Experience Replay model
+- `dqn_priority.pth`: saved model weights for the DQN Priority Experience Replay model
 - `Navigation.ipynb`: notebook containing the solution, **entry point**.
 
 ### Weights
 
 - **DQN**: to run the basic DQN algorithm, checkpoint `dqn.pth` contains the trained model
 - **Double DQN**: to run the Double DQN algorithm, use the checkpoint `ddqn.pth` for loading the trained model.
-- **PER DQN**: to run the Prioritised Experience Replay algorithm, use the checkpoint `ddqn_priority.pth` for loading the trained model.
+- **PER DQN**: to run the Prioritised Experience Replay algorithm, use the checkpoint `dqn_priority.pth` for loading the trained model.
 
 
 ## Dependencies
