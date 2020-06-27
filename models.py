@@ -18,10 +18,10 @@ class QNetwork(nn.Module):
         self.seed = torch.manual_seed(seed)
         "*** YOUR CODE HERE ***"
         
-        self.fc1 = nn.Linear(state_size, 15)
-        self.fc2 = nn.Linear(15, 15)
-        self.fc3 = nn.Linear(15, 15)
-        self.fc4 = nn.Linear(15, action_size)
+        self.fc1 = nn.Linear(state_size, 16)
+        self.fc2 = nn.Linear(16, 16)
+        self.fc3 = nn.Linear(16, 16)
+        self.fc4 = nn.Linear(16, action_size)
         self.criterion = nn.MSELoss()
 
     def forward(self, state):
