@@ -75,3 +75,10 @@ Repository contains implementation of the further enhancements to the original D
 
 - Double DQN [[Paper](https://arxiv.org/abs/1509.06461)]
 - Prioritized Experience Replay [[Paper](https://arxiv.org/abs/1511.05952)]
+
+## Results
+Plots show scores and smoothed scores, over all episodes, for each of the implemented agents.
+
+![scores](https://github.com/rrstal/drlnd-dqn-agent-navigation/blob/master/media/results.PNG)
+
+![smoothed_scores](https://github.com/rrstal/drlnd-dqn-agent-navigation/blob/master/media/smoothed_results.PNG)

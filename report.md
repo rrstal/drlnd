@@ -51,3 +51,10 @@ Environment solved in 502 episodes!	Average Score: 13.01
 eps_start=1.0, eps_end=0.01, eps_decay=0.995
 Environment solved in 551 episodes!	Average Score: 13.01
 ```
+
+
+Plots show scores and smoothed scores, over all episodes, for each of the implemented agents.
+
+![scores](https://github.com/rrstal/drlnd-dqn-agent-navigation/blob/master/media/results.PNG)
+
+![smoothed_scores](https://github.com/rrstal/drlnd-dqn-agent-navigation/blob/master/media/smoothed_results.PNG)
