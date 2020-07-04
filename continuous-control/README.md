@@ -59,8 +59,7 @@ Repository contains implementation along the idea of Deep Deterministic Policy G
 - DDPG [[Paper](https://arxiv.org/abs/1509.02971)]
 
 ## Results
-TODO
 
-![scores](https://github.com/rrstal/drlnd-dqn-agent-navigation/blob/master/media/results.PNG)
+Plot shows scores per episode, being an average over all the agents, together with the threshold. Required average over the last 100 episodes for all the agents was set to be 30.
 
-![smoothed_scores](https://github.com/rrstal/drlnd-dqn-agent-navigation/blob/master/media/smoothed_results.PNG)
+![scores](https://github.com/rrstal/drlnd/blob/master/continuous-control/media/result.png)
