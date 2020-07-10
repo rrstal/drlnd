@@ -21,11 +21,11 @@ The task is episodic, with 1000 timesteps per episode. In order to solve the env
 
 ## Files
 
+- `Continuous_Control.ipynb`: notebook containing the solution, **entry point**
 - `ddpg_agent.py`: implementation of the agents used in the environment
 - `models.py`: implementation of the actor and the critic classes
 - `checkpoint_critic.pth`: saved model weights for the Critic
 - `checkpoint_actor.pth`: saved model weights for the Actor
-- `Continuous_Control.ipynb`: notebook containing the solution, **entry point**
 
 
 ## Dependencies

@@ -8,8 +8,9 @@
 
 The goal of this project is to train an agent to navigate and collect bananas in a large, square world. 
 
-
-![Agent in action][image1]
+<p align="center">
+    <img src="media/banana_agent_view.gif" width=50% height=50%>
+</p>
 
 ## Problem Statement
 
@@ -31,12 +32,12 @@ agent must get an average score of +13 over 100 consecutive episodes.
 
 ## Files
 
+- `Navigation.ipynb`: notebook containing the solution, **entry point**.
 - `agents.py`: implementation of the agents used in the environment
 - `models.py`: implementation of the Q-Network architectures used as the function approximator by the agent
-- `dqn.pth`: saved model weights for the original DQN model
-- `ddqn.pth`: saved model weights for the Double DQN model
-- `dqn_priority.pth`: saved model weights for the DQN Priority Experience Replay model
-- `Navigation.ipynb`: notebook containing the solution, **entry point**.
+- `checkpoints/dqn.pth`: saved model weights for the original DQN model
+- `checkpoints/ddqn.pth`: saved model weights for the Double DQN model
+- `checkpoints/dqn_priority.pth`: saved model weights for the DQN Priority Experience Replay model
 
 ### Weights
 
@@ -79,6 +80,6 @@ Repository contains implementation of the further enhancements to the original D
 ## Results
 Plots show scores and smoothed scores, over all episodes, for each of the implemented agents.
 
-![scores](https://github.com/rrstal/drlnd-dqn-agent-navigation/blob/master/media/results.PNG)
+![scores](https://github.com/rrstal/drlnd/blob/master/dqn-agent-navigation/media/results.PNG)
 
-![smoothed_scores](https://github.com/rrstal/drlnd-dqn-agent-navigation/blob/master/media/smoothed_results.PNG)
+![smoothed_scores](https://github.com/rrstal/drlnd/blob/master/dqn-agent-navigation/media/smoothed_results.PNG)
